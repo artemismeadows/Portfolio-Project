@@ -1,0 +1,19 @@
+$purple: rebeccapurple;
+
+.bg-purple {
+    background-color: $purple;
+}
+
+.jumbotron {
+    background-size: cover; 
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    .h1 {
+        text-align: center;
+    }
+}
+
+.container {
+    width: 100%;
+}
