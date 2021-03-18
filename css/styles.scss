@@ -2,7 +2,11 @@ $color-primary: #663399;
 $color-secondary: #a22d8c;
 $color-tertiary: #443b9e;
 $color-quaternary: #e3d83f;
+$font-family: Helvetica, sans-serif;
 
+body {
+    font-family: $font-family;
+}
 .bg-purple {
     background-color: $color-primary;
 }
