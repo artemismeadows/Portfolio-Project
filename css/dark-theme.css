@@ -1,9 +1,16 @@
 body {
   font-family: Helvetica, sans-serif;
+  background-color: #353532;
+  color: antiquewhite;
 }
 
 .bg-purple {
-  background-color: #663399;
+  background-color: #310a5d;
+}
+
+.breadcrumb {
+  background-color: #353532 !important;
+  color: white !important;
 }
 
 .jumbotron {
@@ -18,8 +25,18 @@ body {
   text-align: center;
 }
 
+.theme-toggle {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: white !important;
+}
+
 .text-responsive {
-  font-size: calc(100% + 1.5vw + 2vh);
+  font-size: calc(100% + 1.25vw + 2vh);
   text-align: center;
 }
 
@@ -32,12 +49,20 @@ body {
 }
 
 .fa-cog {
-  color: #a22d8c;
+  color: #5f3cac;
+}
+
+form {
+  background-color: #353532 i !important;
+}
+
+.card {
+  background-color: #353532;
 }
 
 .site-footer {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#663399), to(#443b9e));
-  background-image: linear-gradient(#663399, #443b9e);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#310a5d), to(#2a2438));
+  background-image: linear-gradient(#310a5d, #2a2438);
   padding: 20px 0;
 }
 
@@ -56,7 +81,7 @@ body {
 }
 
 .socialMediaLinks a:hover {
-  background-color: #e3d83f;
+  background-color: #352f44;
 }
 
 .socialMediaLinks .fa-instagram {

@@ -1,14 +1,22 @@
-$color-primary: #663399;
-$color-secondary: #a22d8c;
-$color-tertiary: #443b9e;
-$color-quaternary: #e3d83f;
+$color-primary: #310a5d;
+$color-secondary: #5f3cac;
+$color-tertiary: #2a2438;
+$color-quaternary: #352f44;
+$color-bg: #353532;
 $font-family: Helvetica, sans-serif;
 
 body {
     font-family: $font-family;
+    background-color: $color-bg;
+    color: antiquewhite;
 }
 .bg-purple {
     background-color: $color-primary;
+}
+
+.breadcrumb {
+    background-color: $color-bg !important;
+    color: white !important;
 }
 
 .jumbotron {
@@ -22,8 +30,17 @@ body {
     }
 }
 
+.theme-toggle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: $font-family;
+    font-size: 22px;
+    color: white !important;
+}
+
 .text-responsive {
-    font-size: calc(100% + 1.5vw + 2vh);
+    font-size: calc(100% + 1.25vw + 2vh);
     text-align: center;
   }
 
@@ -37,6 +54,14 @@ body {
 
 .fa-cog {
     color: $color-secondary;
+}
+
+form {
+    background-color: $color-bg i !important;
+}
+
+.card {
+    background-color: $color-bg;
 }
 
 .site-footer {
