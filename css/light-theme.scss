@@ -48,6 +48,15 @@ body {
     width: 100%;
 }
 
+.carousel {
+    border:2px solid $color-secondary;
+}
+
+.carousel-caption {
+    background-color: black;
+    opacity: .70;
+}
+
 .img-center {
     margin: 0 auto;
 }
