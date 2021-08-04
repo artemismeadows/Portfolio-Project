@@ -1,5 +1,5 @@
 {
-  "name": "portfolio-project",
+  "name": "q",
   "version": "1.0.0",
   "description": "Portfolio",
   "main": "index.js",
@@ -10,5 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artemismeadows/Portfolio-Project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/artemismeadows/Portfolio-Project/issues"
+  },
+  "homepage": "https://github.com/artemismeadows/Portfolio-Project#readme"
 }
